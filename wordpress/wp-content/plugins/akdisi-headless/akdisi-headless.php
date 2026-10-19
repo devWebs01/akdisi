@@ -791,9 +791,6 @@ function akdisi_hl_seed() {
 			'work'          => array( 'Arsitektur kategori & navigasi', 'Desain beranda dinamis', 'Pengembangan pencarian & optimasi performa', 'Slot iklan yang bisa dikelola sendiri', 'Pelatihan alur kerja redaksi' ),
 			'content'       => array( 'Beranda — headline & berita terbaru', 'Kategori berita daerah', 'Halaman artikel & profil penulis', 'Pencarian', 'Manajemen iklan', 'Redaksi & kontak' ),
 		),
-	);
-
-
 		array(
 			'wp_id'          => 124,
 			'frontend_slug' => 'eventflow',
@@ -824,6 +821,8 @@ function akdisi_hl_seed() {
 			'work'          => array( 'Riset pengguna & audit antarmuka lama', 'Model penemuan produk yang baru', 'Design system untuk tim internal', 'Redesain checkout — 2,4x lebih cepat' ),
 			'content'       => array( 'Beranda — penemuan & kurasi', 'Kategori & pencarian', 'Halaman produk & permintaan penawaran', 'Keranjang & checkout', 'Dashboard pembeli B2B', 'Dokumentasi design system' ),
 		),
+	);
+
 	$updated = 0;
 	foreach ( $projects as $row ) {
 		$post = get_post( $row['wp_id'] );
