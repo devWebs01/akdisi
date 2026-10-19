@@ -3,7 +3,7 @@
  * Plugin Name:       AKDISI Headless
  * Plugin URI:        https://akdisi.my.id
  * Description:       Satu plugin untuk seluruh konten "Info Website" — Proyek, Klien, FAQ, Testimoni. Register CPT, ekspos REST API untuk frontend Next.js, halaman Info Perusahaan, Gmail SMTP untuk form kontak, dan alat seed. Upload satu file, aktifkan, selesai.
- * Version:           2.0.0
+ * Version:           2.0.2
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            AKDISI
