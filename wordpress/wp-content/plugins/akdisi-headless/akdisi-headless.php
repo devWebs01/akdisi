@@ -793,6 +793,37 @@ function akdisi_hl_seed() {
 		),
 	);
 
+
+		array(
+			'wp_id'          => 124,
+			'frontend_slug' => 'eventflow',
+			'work'          => array( 'Alur registrasi peserta bertingkat', 'Penempatan duduk otomatis', 'Pencetakan badge & check-in', 'Manajemen daftar tunggu' ),
+			'content'       => array( 'Formulir registrasi bertingkat', 'Dashboard penyelenggara', 'Penempatan duduk otomatis', 'Check-in & cetak badge', 'Daftar tunggu & konfirmasi', 'Laporan peserta' ),
+		),
+		array(
+			'wp_id'          => 123,
+			'frontend_slug' => 'suite-analitik',
+			'work'          => array( 'Konsolidasi data dari lima alat terpisah', 'Desain dashboard per peran', 'Pengembangan visualisasi & filter', 'Validasi & migrasi data' ),
+			'content'       => array( 'Ringkasan eksekutif', 'Pendapatan & tren', 'Funnel penjualan', 'Performa produk', 'Laporan terjadwal & ekspor' ),
+		),
+		array(
+			'wp_id'          => 122,
+			'frontend_slug' => 'propcare',
+			'work'          => array( 'Pemetaan perjalanan penyewa & staf', 'Desain portal penyewa & back-office', 'Pengingat sewa & tiket perawatan', 'Pelaporan tanpa spreadsheet' ),
+			'content'       => array( 'Portal penyewa — sewa, tiket, dokumen', 'Pengingat & pembayaran sewa', 'Tiket perawatan & status penanganan', 'Back-office tim properti', 'Laporan ringkas per properti' ),
+		),
+		array(
+			'wp_id'          => 121,
+			'frontend_slug' => 'operasi-klinik',
+			'work'          => array( 'Digitalisasi antrean & alur pasien', 'Desain dashboard ramah staf', 'Penjadwalan & rekam medis elektronik', 'Pelatihan & pendampingan bertahap' ),
+			'content'       => array( 'Jadwal & penjadwalan multi-cabang', 'Rekam medis elektronik', 'Alur pasien & antrean', 'Pengingat kunjungan', 'Laporan operasional' ),
+		),
+		array(
+			'wp_id'          => 120,
+			'frontend_slug' => 'revamp-marketplace',
+			'work'          => array( 'Riset pengguna & audit antarmuka lama', 'Model penemuan produk yang baru', 'Design system untuk tim internal', 'Redesain checkout — 2,4x lebih cepat' ),
+			'content'       => array( 'Beranda — penemuan & kurasi', 'Kategori & pencarian', 'Halaman produk & permintaan penawaran', 'Keranjang & checkout', 'Dashboard pembeli B2B', 'Dokumentasi design system' ),
+		),
 	$updated = 0;
 	foreach ( $projects as $row ) {
 		$post = get_post( $row['wp_id'] );
@@ -851,7 +882,7 @@ add_action(
 				?>
 				<div class="wrap">
 					<h1>Seed Headless Meta</h1>
-					<p>Isi meta <code>frontend_slug</code>, <code>work</code>, <code>content_list</code> untuk 10 proyek dan <code>role</code> untuk 5 testimoni. Idempoten.</p>
+					<p>Isi meta <code>frontend_slug</code>, <code>work</code>, <code>content_list</code> untuk 15 proyek dan <code>role</code> untuk 5 testimoni. Idempoten.</p>
 					<form method="post">
 						<?php wp_nonce_field( 'akdisi_seed_headless', 'akdisi_seed_seed_nonce' ); ?>
 						<p><button type="submit" name="akdisi_run_seed" class="button button-primary">Jalankan Seed</button></p>
