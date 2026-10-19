@@ -732,91 +732,91 @@ add_action(
 function akdisi_hl_seed() {
 	$projects = array(
 		array(
-			'wp_id'          => 134,
+			'wp_slug'       => 'akar-solution-website-profil-perusahaan',
 			'frontend_slug' => 'akar-solution-website',
 			'work'          => array( 'Riset konten & struktur informasi', 'Desain UI/UX dengan identitas visual baru', 'Pengembangan situs multi-halaman berperforma cepat', 'SEO teknis, halaman layanan, dan artikel insight', 'Pelatihan pengelolaan konten untuk tim internal' ),
 			'content'       => array( 'Beranda — positioning layanan & bukti kerja', 'Layanan — satu halaman detail per layanan', 'Harga & paket yang transparan', 'Portofolio proyek & studi kasus', 'Blog / insight untuk mesin pencari', 'Kontak & formulir brief proyek' ),
 		),
 		array(
-			'wp_id'          => 133,
+			'wp_slug'       => 'glad2glow-e-commerce-skincare',
 			'frontend_slug' => 'glad2glow',
 			'work'          => array( 'Struktur katalog & kategori produk', 'Desain antarmuka ramah pembeli muda', 'Alur belanja & checkout', 'Integrasi pembayaran & pengiriman', 'Konten produk: kandungan, cara pakai, ulasan' ),
 			'content'       => array( 'Beranda — kampanye & produk unggulan', 'Katalog per kategori & masalah kulit', 'Detail produk — kandungan, cara pakai, ulasan', 'Rutinitas per tipe kulit', 'Keranjang & checkout', 'Promo & bundling' ),
 		),
 		array(
-			'wp_id'          => 132,
+			'wp_slug'       => 'sistem-kas-tanah-adat-dusun-kebun',
 			'frontend_slug' => 'sistem-kas-tanah-adat',
 			'work'          => array( 'Pemetaan alur kas & kebutuhan laporan', 'Desain pencatatan yang sederhana untuk pengurus', 'Pengembangan sistem & uji coba bersama', 'Pendampingan penggunaan harian' ),
 			'content'       => array( 'Dashboard saldo & arus kas', 'Pencatatan transaksi masuk & keluar', 'Bukti digital — nota & foto', 'Laporan periodik siap audit', 'Hak akses pengurus & bendahara' ),
 		),
 		array(
-			'wp_id'          => 131,
+			'wp_slug'       => 'wedding-gallery-katalog-vendor-pernikahan',
 			'frontend_slug' => 'wedding-gallery',
 			'work'          => array( 'Kurasi & struktur katalog vendor', 'Desain halaman portofolio vendor', 'Alur tanya-jawab & permintaan penawaran' ),
 			'content'       => array( 'Beranda — layanan unggulan & suasana acara', 'Katalog vendor per kategori', 'Portofolio & studi kasus', 'Blog & artikel', 'Kontak & penawaran' ),
 		),
 		array(
-			'wp_id'          => 130,
+			'wp_slug'       => 'expression-hairsalon-website-salon-premium',
 			'frontend_slug' => 'expression-hairsalon',
 			'work'          => array( 'Pemetaan layanan & harga salon', 'Desain identitas visual & katalog', 'Pengembangan situs & reservasi', 'SEO lokal untuk pencarian salon', 'Pelatihan pengelolaan artikel' ),
 			'content'       => array( 'Beranda — layanan unggulan & suasana salon', 'Layanan & daftar harga', 'Cerita brand / tentang', 'Blog — tips perawatan rambut', 'Reservasi & kontak' ),
 		),
 		array(
-			'wp_id'          => 129,
+			'wp_slug'       => 'klinik-dokter-abc-sistem-informasi-klinik',
 			'frontend_slug' => 'klinik-dokter-abc',
 			'work'          => array( 'Pemetaan alur layanan pasien', 'Desain pintu masuk aman & hak akses', 'Pengembangan modul inti administrasi', 'Uji coba bersama staf klinik' ),
 			'content'       => array( 'Login aman & manajemen peran', 'Data pasien & riwayat kunjungan', 'Jadwal dokter & pendaftaran', 'Antrean & status layanan', 'Laporan harian & bulanan' ),
 		),
 		array(
-			'wp_id'          => 128,
+			'wp_slug'       => 'nusantara-kost-booking-kamar-kost',
 			'frontend_slug' => 'nusantara-kost',
 			'work'          => array( 'Katalog kamar & fasilitas', 'Alur pemesanan yang ringkas', 'Integrasi kontak WhatsApp', 'Optimasi informasi lokasi & akses' ),
 			'content'       => array( 'Beranda — kamar yang tersedia', 'Detail kamar & fasilitas', 'Lokasi & peta akses', 'Pemesanan via WhatsApp', 'FAQ penghuni' ),
 		),
 		array(
-			'wp_id'          => 127,
+			'wp_slug'       => 'futsalku-sewa-lapangan-futsal',
 			'frontend_slug' => 'futsalku',
 			'work'          => array( 'Desain portal & katalog lapangan', 'Alur pemesanan & akun anggota', 'Informasi jadwal & lokasi', 'Pengembangan & peluncuran' ),
 			'content'       => array( 'Beranda & ketersediaan jadwal', 'Halaman lapangan — harga & fasilitas', 'Akun anggota & riwayat pemesanan', 'Lokasi & kontak', 'Promo & turnamen' ),
 		),
 		array(
-			'wp_id'          => 126,
+			'wp_slug'       => 'laundry-al-farizi-sistem-manajemen-laundry',
 			'frontend_slug' => 'laundry-al-farizi',
 			'work'          => array( 'Digitalisasi alur order', 'Desain login aman & peran staf', 'Pengembangan pelacakan pesanan', 'Pendampingan operasional harian' ),
 			'content'       => array( 'Login & hak akses staf', 'Input pesanan & data pelanggan', 'Pelacakan status: dicuci, disetrika, siap', 'Nota & pembayaran', 'Laporan harian' ),
 		),
 		array(
-			'wp_id'          => 125,
+			'wp_slug'       => 'sibanyu-portal-berita-daerah',
 			'frontend_slug' => 'sibanyu',
 			'work'          => array( 'Arsitektur kategori & navigasi', 'Desain beranda dinamis', 'Pengembangan pencarian & optimasi performa', 'Slot iklan yang bisa dikelola sendiri', 'Pelatihan alur kerja redaksi' ),
 			'content'       => array( 'Beranda — headline & berita terbaru', 'Kategori berita daerah', 'Halaman artikel & profil penulis', 'Pencarian', 'Manajemen iklan', 'Redaksi & kontak' ),
 		),
 		array(
-			'wp_id'          => 124,
+			'wp_slug'       => 'eventflow',
 			'frontend_slug' => 'eventflow',
 			'work'          => array( 'Alur registrasi peserta bertingkat', 'Penempatan duduk otomatis', 'Pencetakan badge & check-in', 'Manajemen daftar tunggu' ),
 			'content'       => array( 'Formulir registrasi bertingkat', 'Dashboard penyelenggara', 'Penempatan duduk otomatis', 'Check-in & cetak badge', 'Daftar tunggu & konfirmasi', 'Laporan peserta' ),
 		),
 		array(
-			'wp_id'          => 123,
+			'wp_slug'       => 'analytics-suite',
 			'frontend_slug' => 'suite-analitik',
 			'work'          => array( 'Konsolidasi data dari lima alat terpisah', 'Desain dashboard per peran', 'Pengembangan visualisasi & filter', 'Validasi & migrasi data' ),
 			'content'       => array( 'Ringkasan eksekutif', 'Pendapatan & tren', 'Funnel penjualan', 'Performa produk', 'Laporan terjadwal & ekspor' ),
 		),
 		array(
-			'wp_id'          => 122,
+			'wp_slug'       => 'prop-care',
 			'frontend_slug' => 'propcare',
 			'work'          => array( 'Pemetaan perjalanan penyewa & staf', 'Desain portal penyewa & back-office', 'Pengingat sewa & tiket perawatan', 'Pelaporan tanpa spreadsheet' ),
 			'content'       => array( 'Portal penyewa — sewa, tiket, dokumen', 'Pengingat & pembayaran sewa', 'Tiket perawatan & status penanganan', 'Back-office tim properti', 'Laporan ringkas per properti' ),
 		),
 		array(
-			'wp_id'          => 121,
+			'wp_slug'       => 'clinic-ops',
 			'frontend_slug' => 'operasi-klinik',
 			'work'          => array( 'Digitalisasi antrean & alur pasien', 'Desain dashboard ramah staf', 'Penjadwalan & rekam medis elektronik', 'Pelatihan & pendampingan bertahap' ),
 			'content'       => array( 'Jadwal & penjadwalan multi-cabang', 'Rekam medis elektronik', 'Alur pasien & antrean', 'Pengingat kunjungan', 'Laporan operasional' ),
 		),
 		array(
-			'wp_id'          => 120,
+			'wp_slug'       => 'marketplace-revamp',
 			'frontend_slug' => 'revamp-marketplace',
 			'work'          => array( 'Riset pengguna & audit antarmuka lama', 'Model penemuan produk yang baru', 'Design system untuk tim internal', 'Redesain checkout — 2,4x lebih cepat' ),
 			'content'       => array( 'Beranda — penemuan & kurasi', 'Kategori & pencarian', 'Halaman produk & permintaan penawaran', 'Keranjang & checkout', 'Dashboard pembeli B2B', 'Dokumentasi design system' ),
@@ -825,13 +825,21 @@ function akdisi_hl_seed() {
 
 	$updated = 0;
 	foreach ( $projects as $row ) {
-		$post = get_post( $row['wp_id'] );
-		if ( ! $post || 'akdisi_project' !== $post->post_type ) {
+		$posts = get_posts(
+			array(
+				'post_type'      => 'akdisi_project',
+				'posts_per_page' => 1,
+				'name'            => $row['wp_slug'],
+				'fields'         => 'ids',
+			)
+		);
+		if ( ! $posts ) {
 			continue;
 		}
-		update_post_meta( $post->ID, 'frontend_slug', $row['frontend_slug'] );
-		update_post_meta( $post->ID, 'work', implode( "\n", $row['work'] ) );
-		update_post_meta( $post->ID, 'content_list', implode( "\n", $row['content'] ) );
+		$post_id = $posts[0];
+		update_post_meta( $post_id, 'frontend_slug', $row['frontend_slug'] );
+		update_post_meta( $post_id, 'work', implode( "\n", $row['work'] ) );
+		update_post_meta( $post_id, 'content_list', implode( "\n", $row['content'] ) );
 		++$updated;
 	}
 
